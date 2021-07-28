@@ -956,20 +956,18 @@ h1,h2,h3,h4,h5,h6{
 .shipping-info {
   background-color: #ffffff;
   margin-bottom: 60px;
-  display: flex;
+  margin: 0;
   
 }
 
 .shipping-info ul {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  margin-bottom: 20px;
-
 }
 
 .shipping-info li {
   list-style: none;
-  float: left;
   width: 25%;
   padding: 30px 30px;
   border: 1px solid #eee;
@@ -981,12 +979,15 @@ h1,h2,h3,h4,h5,h6{
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .shipping-info li {
     width: 50%;
+    
   }
 }
 
 @media (max-width: 767px) {
   .shipping-info li {
-    width: 100%;
+    width: 110%;
+    margin-right: 6vw;
+   
   }
 }
 

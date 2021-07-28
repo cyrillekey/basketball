@@ -3,7 +3,6 @@ $(document).ready(function () {
 	var menuactive=false;
 	var hamburgerClose=$('.hamburger_close');
 	var fsOverlay=$('.fs_menu_overlay');
-	var mainslider=$('.main_slider');
 	var hamburger=$('.hamburger_container')
 	initMenu();
 

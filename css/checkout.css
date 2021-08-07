@@ -245,6 +245,12 @@ nav .brand-logo {
 
 .swiper-button-disabled {
   display: none;
+}.mobilepay{
+  border: solid red;
+  padding: 5px 60px;
+  border-radius: 5px;
+  background-image: url('../image/IMG_20190728_192806.jpg');
+
 }
 /************************************
 

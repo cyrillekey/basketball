@@ -59,4 +59,16 @@ $(document).ready(function () {
 		menuactive=false;
 
 	  }
+	  $(".faequently-accordion").collapse({
+        accordion:true,
+        open: function() {
+        this.slideDown(300);
+      },
+      close: function() {
+        this.slideUp(300);
+      }		
+    });
+	
+
+
 });

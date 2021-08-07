@@ -10,7 +10,79 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col,
+.col-auto,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm,
+.col-sm-auto,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md,
+.col-md-auto,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg,
+.col-lg-auto,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl,
+.col-xl-auto {
+    padding-right: 10px;
+    padding-left: 10px
+}
 body {
     font-family: "Poppins", "sans-serif";
     font-size: 14px;
@@ -275,6 +347,8 @@ h1,h2,h3,h4,h5,h6{
     width: fit-content;
     top:35%;
     transform: translate(-50%);
+   
+    margin-left: 20px;
 
 }
 .logo-container a{
@@ -2446,7 +2520,8 @@ top: 2px;
   transition: transform 0.4s ease;
 }
 .cart-product-quantity {
-  width: 100px
+  width: 100px;
+
 }/*
 .cart-product-quantity .form-control {
   padding: .85rem 2.6rem;
@@ -2464,13 +2539,14 @@ top: 2px;
   width: 60px;
 }
 .summary {
-  padding: 2.5rem 3rem 3rem;
+  padding: 2.5rem 2rem 3rem;
   border: .1rem dashed #d7d7d7;
   background-color: #f9f9f9;
   border-radius: .3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  width: 100%;
+  
+ 
 }
 .summary-title {
   font-weight: 500;
@@ -2482,7 +2558,7 @@ top: 2px;
 }
 
 .table.table-summary {
-  line-height: 1.43;
+  line-height: 1;
   color: #666;
   border: none;
   margin-bottom: 0;
@@ -2513,6 +2589,7 @@ top: 2px;
   padding: 0;
   height: 70px;
   border-bottom: .1rem solid #ebebeb;
+  width: 1px;
 }
 
 .table.table-summary thead th,
@@ -2532,6 +2609,9 @@ top: 2px;
   font-size: 1.6rem;
   color: #c96;
   border-bottom: none;
+ 
+  width: 2px;
+  
 }
 .product-col .product {
   display: flex;
@@ -2657,15 +2737,319 @@ top: 2px;
 .cart-bottom {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 5rem
+  margin-bottom: 5rem;
 }
 
 .cart-bottom .btn {
   margin-left: auto;
-  min-width: 152px
+  min-width: 152px;
 }
 
 .cart-discount {
   flex: 0 0 50%;
-  max-width: 326px
+  max-width: 326px;
+}
+.cart-discount .form-control {
+  margin-right: 1.1rem;
+}
+
+.cart-discount .btn {
+  min-width: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.summary.summary-cart {
+  margin-bottom: 3rem;
+}
+
+.summary.summary-cart .summary-title {
+  margin-bottom: 0;
+}
+
+.table.table-summary .summary-shipping {
+  color: #333;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.table.table-summary .summary-shipping td {
+  padding-top: 2rem;
+  padding-bottom: 1.3rem;
+  height: auto;
+  border-bottom: none;
+}
+
+.table.table-summary .summary-shipping-row {
+  color: #333;
+}
+
+.table.table-summary .summary-shipping-row label {
+  color: inherit;
+}
+
+.table.table-summary .summary-shipping-row td {
+  height: auto;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: none;
+}
+
+.table.table-summary .custom-control {
+  margin: 0;
+}
+
+.table.table-summary .summary-shipping-estimate {
+  color: #333;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.table.table-summary .summary-shipping-estimate td {
+  height: auto;
+  padding-top: 1.4rem;
+  padding-bottom: 2.3rem;
+}
+
+.table.table-summary .summary-shipping-estimate a {
+  margin-top: .6rem;
+  display: inline-block;
+  font-weight: 300;
+  color: #999;
+  font-size: 1.4rem;
+  border-bottom: 0.1rem solid #999;
+}
+
+.table.table-summary .summary-shipping-estimate a:hover,
+.table.table-summary .summary-shipping-estimate a:focus {
+  color: #c96;
+  border-bottom-color: #c96;
+}
+
+.summary-cart .table.table-summary thead th:last-child,
+.summary-cart .table.table-summary tbody td:last-child {
+  min-width: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .cart .col-lg-3 {
+      -ms-flex: 0 0 30%;
+      flex: 0 0 30%;
+      max-width: 30%
+  }
+
+  .cart .col-lg-9 {
+      -ms-flex: 0 70%;
+      flex: 0 0 70%;
+      max-width: 70%
+  }
+}
+
+/*================================================================================
+  FAQ AREA
+===============================================================================*/
+.faq{
+  margin-top: 120px;
+}
+.faq_content_area {
+  margin-top: 200px;
+  padding-bottom: 55px;
+  
+}
+@media only screen and (max-width: 767px) {
+  .faq_content_area {
+    margin-top: 54px;
+  }
+}
+
+.accordion_area {
+  padding-bottom: 60px;
+}
+.accordion_area .card-header {
+  background: #1D1678;
+}
+.accordion_area .card-header:first-child {
+  border-radius: inherit;
+}
+
+.card.card_dipult {
+  border: none;
+  margin-bottom: 10px;
+}
+
+.card.card_dipult:last-child {
+  margin-bottom: 0;
+}
+
+.card-header.card_accor {
+  padding: 0;
+  border: none;
+}
+.card-header.card_accor button {
+  height: 45px;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  white-space: initial;
+}
+@media only screen and (max-width: 767px) {
+  .card-header.card_accor button {
+    height: 60px;
+  }
+}
+.card-header.card_accor button i {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translatey(-50%);
+  transform: translatey(-50%);
+  right: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .card-header.card_accor button i {
+    right: 10px;
+  }
+}
+.card-header.card_accor button.btn-link {
+  border: 1px solid #1D1678;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.card-header.card_accor button.btn-link.collapsed {
+  background: #f2f2f2;
+  border: 1px solid #ebebeb;
+  width: 100%;
+  text-align: left;
+  color: #242424;
+}
+
+.card-header.card_accor button.btn-link i.fa-plus {
+  display: none;
+}
+
+.card-header.card_accor button.btn-link.collapsed i.fa-plus {
+  display: block;
+}
+
+.card-header.card_accor button.btn-link.collapsed i.fa-minus {
+  display: none;
+}
+
+.faq_content_wrapper h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 18px;
+}
+@media only screen and (max-width: 767px) {
+  .faq_content_wrapper h4 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+/*******************************************************************
+  Account Section
+************************************************************************/
+.account{
+  margin-top: 140px;
+  margin-bottom: 40px;
+}
+.myaccount-tab-menu {
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.myaccount-tab-menu a {
+  border: 1px solid #c5c5c5;
+  border-bottom: none;
+  color: #727272;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  display: block;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.myaccount-tab-menu a:last-child {
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.myaccount-tab-menu a:hover, .myaccount-tab-menu a.active {
+  background-color: #d82e2e;
+  color: #fff;
+}
+
+.myaccount-tab-menu a i.fa {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  width: 25px;
+}
+
+.myaccount-content {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  border: 1px solid #c5c5c5;
+  padding: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .myaccount-content {
+      padding: 20px 15px;
+  }
+}
+
+.myaccount-content h3 {
+  font-family: "Montserrat";
+  font-size: 2.2rem;
+  line-height: 1.5;
+  border-bottom: 1px dashed #c5c5c5;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+.myaccount-content .welcome a {
+  color: #000;
+}
+
+.myaccount-content .welcome a:hover {
+  color: #d82e2e;
+}
+
+.myaccount-table {
+  white-space: nowrap;
+  font-size: 1.5rem;
+  line-height: 1.5;
+ 
+}
+
+.myaccount-table table th, .myaccount-table .table th {
+  color: #202020;
+  padding: 10px;
+}
+
+.myaccount-table table td, .myaccount-table .table td {
+  padding: 20px 10px;
+}
+
+.myaccount-table table .btn-add-to-cart, .myaccount-table .table .btn-add-to-cart {
+  border-width: 1px;
+}
+
+.saved-message {
+  background-color: #f4f5f7;
+  border-top: 3px solid #d82e2e;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #202020;
+  padding: 20px;
 }

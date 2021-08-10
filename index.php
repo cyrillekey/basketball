@@ -240,110 +240,127 @@
             </div>           
             </section>
   <!-- Card -->
-    <div class="wrapper">
-      <div class="card pro">
-        <div class="images">
-          <img src="image/20210717_154929.jpg" alt="airpod pro2">
+  <div class="container">
+    <div class="row" >
+        <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Product -->
+            <div class="single-product">
+                <div class="product-image">
+                    <img src="image/20210717_154929.jpg" alt="#">
+                    <div class="button">
+                        <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="category">Laptop</span>
+                    <h4 class="title">
+                        <a href="product-grids.html">Apple MacBook Air</a>
+                    </h4>
+                    <ul class="review">
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><span>5.0 Review(s)</span></li>
+                    </ul>
+                    <div class="price">
+                        <span>$899.00</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Single Product -->
         </div>
-        <div class="text">
-          <div class="product-name">AIRPOD PRO HEADPHONES</div>
+        <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Product -->
+            <div class="single-product">
+                <div class="product-image">
+                    <img src="image/20210717_154929.jpg" alt="#">
+                    <div class="button">
+                        <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="category">Laptop</span>
+                    <h4 class="title">
+                        <a href="product-grids.html">Apple MacBook Air</a>
+                    </h4>
+                    <ul class="review">
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><span>5.0 Review(s)</span></li>
+                    </ul>
+                    <div class="price">
+                        <span>$899.00</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Single Product -->
         </div>
-        <div class="ratings">
-          <span>&starf;</span>
-          <span>&starf;</span>
-          <span>&starf;</span>
-          <span>&starf;</span>
-          <span>&star;</span>
+        <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Product -->
+            <div class="single-product">
+                <div class="product-image">
+                    <img src="image/20210717_154929.jpg" alt="#">
+                    <div class="button">
+                        <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="category">Laptop</span>
+                    <h4 class="title">
+                        <a href="product-grids.html">Apple MacBook Air</a>
+                    </h4>
+                    <ul class="review">
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><span>5.0 Review(s)</span></li>
+                    </ul>
+                    <div class="price">
+                        <span>$899.00</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Single Product -->
         </div>
-        <div class="pricing">
-          <div class="price-box">
-            <h3 class="price-numb">Ksh 1200</h3>
-            <p class="price-text">Ksh 1500.</p>
-          </div>
+        <div class="col-lg-3 col-md-6 col-12">
+            <!-- Start Single Product -->
+            <div class="single-product">
+                <div class="product-image">
+                    <img src="image/20210717_154929.jpg" alt="#">
+                    <span class="new-tag">New</span>
+                    <div class="button">
+                        <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="category">Laptop</span>
+                    <h4 class="title">
+                        <a href="product-grids.html">Apple MacBook Air</a>
+                    </h4>
+                    <ul class="review">
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><i class="lni lni-star-filled"></i></li>
+                        <li><span>5.0 Review(s)</span></li>
+                    </ul>
+                    <div class="price">
+                        <span>$899.00</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Single Product -->
         </div>
-        <div class="button">
-         <a href="html/single_product.html"><button class="purchase">More Details</button></a>
-          <button class="cart" id="cart">Add To Cart</button>
-        </div>
-      </div>
-      <div class="card pro">
-        <div class="images">
-          <img src="image/20210717_154929.jpg" alt="airpod pro2">
-        </div>
-        <div class="text">
-          <div class="product-name">AIRPOD PRO HEADPHONES</div>
-        </div>
-        <div class="ratings">
-          <span>&starf;</span>
-          <span>&starf;</span>
-          <span>&starf;</span>
-          <span>&starf;</span>
-          <span>&star;</span>
-        </div>
-        <div class="pricing">
-          <div class="price-box">
-            <h3 class="price-numb">Ksh 1200</h3>
-            <p class="price-text">Ksh 1200</p>
-          </div>
-        </div>
-        <div class="button">
-          <button class="purchase">More Details</button>
-          <button class="cart" id="cart">Add To Cart</button>
-        </div>
-      </div>
-      <div class="card pro">
-        <div class="images">
-          <img src="image/20210717_154929.jpg" alt="airpod pro2">
-        </div>
-        <div class="text">
-          <div class="product-name">AIRPOD PRO HEADPHONES</div>
-        </div>
-        <div class="ratings">
-          <span>&starf;</span>
-          <span>&starf;</span>
-          <span>&starf;</span>
-          <span>&starf;</span>
-          <span>&star;</span>
-        </div>
-        <div class="pricing">
-          <div class="price-box">
-            <h3 class="price-numb">Ksh 1200</h3>
-            <p class="price-text">Ksh 1200</p>
-          </div>
-        </div>
-        <div class="button">
-          <button class="purchase">More Details</button>
-          <button class="cart" id="cart">Add To Cart</button>
-        </div>
-      </div>
-      <div class="card pro">
-        <div class="images">
-          <img src="image/IMG_20190728_192746.jpg" alt="airpod pro2">
-        </div>
-        <div class="text">
-          <div class="product-name">AIRPOD PRO HEADPHONES</div>
-        </div>
-        <div class="ratings">
-          <span>&starf;</span>
-          <span>&starf;</span>
-          <span>&starf;</span>
-          <span>&starf;</span>
-          <span>&star;</span>
-        </div>
-        <div class="pricing">
-          <div class="price-box">
-            <h3 class="price-numb">Ksh 1200</h3>
-            <p class="price-text">Ksh 1800</p>
-          </div>
-        </div>
-        <div class="button">
-          <button class="purchase">More Details</button>
-          <button class="cart" id="cart">Add To Cart</button>
-        </div>
-      </div>
-
-   
     </div>
+</div>
     <div class="more_div">
         <a href="" class="more">More Products</a>
     </div>
